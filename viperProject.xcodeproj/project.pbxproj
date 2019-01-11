@@ -97,6 +97,7 @@
 		20E6788B21E9131700C2CBF5 /* viperProject */ = {
 			isa = PBXGroup;
 			children = (
+				20E678BA21E9177400C2CBF5 /* Modules */,
 				20E6788C21E9131700C2CBF5 /* AppDelegate.swift */,
 				20E6788E21E9131700C2CBF5 /* ViewController.swift */,
 				20E6789021E9131700C2CBF5 /* Main.storyboard */,
@@ -123,6 +124,21 @@
 				20E678AE21E9131800C2CBF5 /* Info.plist */,
 			);
 			path = viperProjectUITests;
+			sourceTree = "<group>";
+		};
+		20E678BA21E9177400C2CBF5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				20E678BB21E9178400C2CBF5 /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		20E678BB21E9178400C2CBF5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
