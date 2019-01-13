@@ -8,11 +8,11 @@
 
 import UIKit
 
-
 protocol MainPresenterToViewProtocol: class{
 }
 
 protocol MainInteractorToPresenterProtocol: class{
+    
 }
 
 protocol MainPresenterToInteractorProtocol: class{
@@ -23,9 +23,10 @@ protocol MainViewToPresenterProtocol: class{
     var view: MainPresenterToViewProtocol? {get set}
     var interactor: MainPresenterToInteractorProtocol? {get set}
     var router: MainPresenterToRouterProtocol? {get set}
-    func updateView()
+    func nextButtonPressed()
 }
 
 protocol MainPresenterToRouterProtocol: class{
     static func createModule() -> UIViewController
+    func navigateToNextScreen(origin: UIViewController)
 }

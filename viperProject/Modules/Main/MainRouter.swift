@@ -9,7 +9,8 @@
 import UIKit
 
 class MainRouter: MainPresenterToRouterProtocol{
-    
+
+ 
     class func createModule() -> UIViewController{
         
         let view: MainViewController = Storyboard.MainViewController.instantiateViewController()
@@ -24,5 +25,11 @@ class MainRouter: MainPresenterToRouterProtocol{
         interactor.presenter = presenter
         
         return view
-}
+    }
+    
+    func navigateToNextScreen(origin: UIViewController){
+        
+        guard let navigationController = origin.navigationController as? NavigationBar else {return}
+        navigationController.setViewControllers([SecondScreenRouter.createModule()], animated: true)
+    }
 }

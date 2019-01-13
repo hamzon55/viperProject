@@ -8,20 +8,24 @@
 
 import UIKit
 
-
 class MainViewController: UIViewController {
     
     var presenter: MainViewToPresenterProtocol?
     
+    @IBOutlet weak var startButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        presenter?.updateView()
-    
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
+    @IBAction func onStartButton(_ sender: Any) {
+        presenter?.nextButtonPressed()
+    }
+    
 }
 
 extension MainViewController: MainPresenterToViewProtocol {

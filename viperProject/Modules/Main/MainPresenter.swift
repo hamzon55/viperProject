@@ -8,14 +8,15 @@
 
 import UIKit
 
-
 class MainPresenter: MainViewToPresenterProtocol {
     
     var view: MainPresenterToViewProtocol?
     var interactor: MainPresenterToInteractorProtocol?
     var router: MainPresenterToRouterProtocol?
     
-    func updateView() {
+    func nextButtonPressed() {
+        guard let vc = view as? UIViewController else { return }
+        router?.navigateToNextScreen(origin: vc)
     }
 }
 
