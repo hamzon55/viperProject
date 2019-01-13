@@ -19,7 +19,15 @@
 		20E678C521E93A6E00C2CBF5 /* MainEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E678C421E93A6E00C2CBF5 /* MainEntities.swift */; };
 		20E678C721E93AB500C2CBF5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E678C621E93AB500C2CBF5 /* MainViewController.swift */; };
 		20E678CA21E93BD300C2CBF5 /* StoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E678C921E93BD300C2CBF5 /* StoryboardExtension.swift */; };
-		20E678CC21E93D1D00C2CBF5 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E678CB21E93D1D00C2CBF5 /* MainViewController.storyboard */; };
+		20E678CE21EA790000C2CBF5 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E678CD21EA790000C2CBF5 /* NavigationBar.swift */; };
+		20E678D121EA8A7000C2CBF5 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E678D021EA8A7000C2CBF5 /* SecondScreenViewController.swift */; };
+		20E678D321EA8A9000C2CBF5 /* SecondScreenProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E678D221EA8A9000C2CBF5 /* SecondScreenProtocols.swift */; };
+		20E678D521EA8A9C00C2CBF5 /* SecondScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E678D421EA8A9C00C2CBF5 /* SecondScreenInteractor.swift */; };
+		20E678D721EA8AA800C2CBF5 /* SecondScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E678D621EA8AA800C2CBF5 /* SecondScreenRouter.swift */; };
+		20E678D921EA8AB500C2CBF5 /* SecondScreenEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E678D821EA8AB500C2CBF5 /* SecondScreenEntities.swift */; };
+		20E678DC21EA8AD200C2CBF5 /* SecondScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E678DB21EA8AD200C2CBF5 /* SecondScreenPresenter.swift */; };
+		20E678E221EA9ED200C2CBF5 /* SecondScreenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E678E121EA9ED200C2CBF5 /* SecondScreenViewController.storyboard */; };
+		20E678FD21EABBF000C2CBF5 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E678FB21EABBF000C2CBF5 /* MainViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +66,15 @@
 		20E678C421E93A6E00C2CBF5 /* MainEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEntities.swift; sourceTree = "<group>"; };
 		20E678C621E93AB500C2CBF5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		20E678C921E93BD300C2CBF5 /* StoryboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardExtension.swift; sourceTree = "<group>"; };
-		20E678CB21E93D1D00C2CBF5 /* MainViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainViewController.storyboard; sourceTree = "<group>"; };
+		20E678CD21EA790000C2CBF5 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		20E678D021EA8A7000C2CBF5 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
+		20E678D221EA8A9000C2CBF5 /* SecondScreenProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenProtocols.swift; sourceTree = "<group>"; };
+		20E678D421EA8A9C00C2CBF5 /* SecondScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenInteractor.swift; sourceTree = "<group>"; };
+		20E678D621EA8AA800C2CBF5 /* SecondScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenRouter.swift; sourceTree = "<group>"; };
+		20E678D821EA8AB500C2CBF5 /* SecondScreenEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenEntities.swift; sourceTree = "<group>"; };
+		20E678DB21EA8AD200C2CBF5 /* SecondScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenPresenter.swift; sourceTree = "<group>"; };
+		20E678E121EA9ED200C2CBF5 /* SecondScreenViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondScreenViewController.storyboard; sourceTree = "<group>"; };
+		20E678FC21EABBF000C2CBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +156,7 @@
 		20E678BA21E9177400C2CBF5 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				20E678CF21EA8A3E00C2CBF5 /* SecondScreen */,
 				20E678BB21E9178400C2CBF5 /* Main */,
 			);
 			path = Modules;
@@ -148,13 +165,13 @@
 		20E678BB21E9178400C2CBF5 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				20E678FB21EABBF000C2CBF5 /* MainViewController.storyboard */,
 				20E678BC21E938F000C2CBF5 /* MainProtocols.swift */,
 				20E678BE21E93A1E00C2CBF5 /* MainPresenter.swift */,
 				20E678C021E93A2A00C2CBF5 /* MainInteractor.swift */,
 				20E678C221E93A4600C2CBF5 /* MainRouter.swift */,
 				20E678C421E93A6E00C2CBF5 /* MainEntities.swift */,
 				20E678C621E93AB500C2CBF5 /* MainViewController.swift */,
-				20E678CB21E93D1D00C2CBF5 /* MainViewController.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -163,8 +180,23 @@
 			isa = PBXGroup;
 			children = (
 				20E678C921E93BD300C2CBF5 /* StoryboardExtension.swift */,
+				20E678CD21EA790000C2CBF5 /* NavigationBar.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		20E678CF21EA8A3E00C2CBF5 /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				20E678D021EA8A7000C2CBF5 /* SecondScreenViewController.swift */,
+				20E678D221EA8A9000C2CBF5 /* SecondScreenProtocols.swift */,
+				20E678D421EA8A9C00C2CBF5 /* SecondScreenInteractor.swift */,
+				20E678D621EA8AA800C2CBF5 /* SecondScreenRouter.swift */,
+				20E678D821EA8AB500C2CBF5 /* SecondScreenEntities.swift */,
+				20E678DB21EA8AD200C2CBF5 /* SecondScreenPresenter.swift */,
+				20E678E121EA9ED200C2CBF5 /* SecondScreenViewController.storyboard */,
+			);
+			path = SecondScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +303,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E678FD21EABBF000C2CBF5 /* MainViewController.storyboard in Resources */,
 				20E6789721E9131700C2CBF5 /* LaunchScreen.storyboard in Resources */,
-				20E678CC21E93D1D00C2CBF5 /* MainViewController.storyboard in Resources */,
+				20E678E221EA9ED200C2CBF5 /* SecondScreenViewController.storyboard in Resources */,
 				20E6789421E9131700C2CBF5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,11 +333,18 @@
 			files = (
 				20E678C521E93A6E00C2CBF5 /* MainEntities.swift in Sources */,
 				20E6788D21E9131700C2CBF5 /* AppDelegate.swift in Sources */,
+				20E678D721EA8AA800C2CBF5 /* SecondScreenRouter.swift in Sources */,
 				20E678CA21E93BD300C2CBF5 /* StoryboardExtension.swift in Sources */,
+				20E678D921EA8AB500C2CBF5 /* SecondScreenEntities.swift in Sources */,
+				20E678DC21EA8AD200C2CBF5 /* SecondScreenPresenter.swift in Sources */,
 				20E678BD21E938F000C2CBF5 /* MainProtocols.swift in Sources */,
 				20E678C121E93A2A00C2CBF5 /* MainInteractor.swift in Sources */,
+				20E678CE21EA790000C2CBF5 /* NavigationBar.swift in Sources */,
+				20E678D121EA8A7000C2CBF5 /* SecondScreenViewController.swift in Sources */,
 				20E678BF21E93A1E00C2CBF5 /* MainPresenter.swift in Sources */,
+				20E678D321EA8A9000C2CBF5 /* SecondScreenProtocols.swift in Sources */,
 				20E678C321E93A4600C2CBF5 /* MainRouter.swift in Sources */,
+				20E678D521EA8A9C00C2CBF5 /* SecondScreenInteractor.swift in Sources */,
 				20E678C721E93AB500C2CBF5 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +387,14 @@
 				20E6789621E9131700C2CBF5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		20E678FB21EABBF000C2CBF5 /* MainViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20E678FC21EABBF000C2CBF5 /* Base */,
+			);
+			name = MainViewController.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
