@@ -14,7 +14,7 @@ class SecondScreenRouter: SecondScreenPresenterToRouterProtocol{
     
     class func createModule() -> UIViewController{
         
-        let view: SecondScreenViewController = Storyboard.SecondScreenViewController.instantiateViewController()
+        let view = SecondScreenViewController()
         let presenter: SecondScreenViewToPresenterProtocol & SecondScreenInteractorToPresenterProtocol = SecondScreenPresenter()
         let interactor: SecondScreenPresenterToInteractorProtocol = SecondScreenInteractor()
         let router: SecondScreenPresenterToRouterProtocol = SecondScreenRouter()

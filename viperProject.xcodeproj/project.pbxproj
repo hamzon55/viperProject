@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		202E96BB21F5B71A0053F514 /* SecondScreenTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E96BA21F5B71A0053F514 /* SecondScreenTableDataSource.swift */; };
+		202E96BD21F5CC620053F514 /* SecondScreenTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E96BC21F5CC620053F514 /* SecondScreenTableDelegate.swift */; };
+		202E96C321F5F2750053F514 /* SecondScreenTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 202E96C221F5F2750053F514 /* SecondScreenTableViewCell.xib */; };
+		20A8E92E21F4CC72001827CC /* SecondScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A8E92D21F4CC72001827CC /* SecondScreenViewController.xib */; };
+		20A8E93421F4CE3D001827CC /* SecondScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A8E93321F4CE3D001827CC /* SecondScreenTableViewCell.swift */; };
 		20E6788D21E9131700C2CBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E6788C21E9131700C2CBF5 /* AppDelegate.swift */; };
 		20E6789421E9131700C2CBF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E6789321E9131700C2CBF5 /* Assets.xcassets */; };
 		20E6789721E9131700C2CBF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E6789521E9131700C2CBF5 /* LaunchScreen.storyboard */; };
@@ -26,7 +31,6 @@
 		20E678D721EA8AA800C2CBF5 /* SecondScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E678D621EA8AA800C2CBF5 /* SecondScreenRouter.swift */; };
 		20E678D921EA8AB500C2CBF5 /* SecondScreenEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E678D821EA8AB500C2CBF5 /* SecondScreenEntities.swift */; };
 		20E678DC21EA8AD200C2CBF5 /* SecondScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E678DB21EA8AD200C2CBF5 /* SecondScreenPresenter.swift */; };
-		20E678E221EA9ED200C2CBF5 /* SecondScreenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E678E121EA9ED200C2CBF5 /* SecondScreenViewController.storyboard */; };
 		20E678FD21EABBF000C2CBF5 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E678FB21EABBF000C2CBF5 /* MainViewController.storyboard */; };
 		880A6B8E41A470CC9B16DA63 /* Pods_viperProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCC4D0C2990B2AAE4ECED10 /* Pods_viperProject.framework */; };
 /* End PBXBuildFile section */
@@ -49,6 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		202E96BA21F5B71A0053F514 /* SecondScreenTableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenTableDataSource.swift; sourceTree = "<group>"; };
+		202E96BC21F5CC620053F514 /* SecondScreenTableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenTableDelegate.swift; sourceTree = "<group>"; };
+		202E96C221F5F2750053F514 /* SecondScreenTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondScreenTableViewCell.xib; sourceTree = "<group>"; };
+		20A8E92D21F4CC72001827CC /* SecondScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondScreenViewController.xib; sourceTree = "<group>"; };
+		20A8E93321F4CE3D001827CC /* SecondScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenTableViewCell.swift; sourceTree = "<group>"; };
 		20E6788921E9131700C2CBF5 /* viperProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viperProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20E6788C21E9131700C2CBF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20E6789321E9131700C2CBF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,7 +83,6 @@
 		20E678D621EA8AA800C2CBF5 /* SecondScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenRouter.swift; sourceTree = "<group>"; };
 		20E678D821EA8AB500C2CBF5 /* SecondScreenEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenEntities.swift; sourceTree = "<group>"; };
 		20E678DB21EA8AD200C2CBF5 /* SecondScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenPresenter.swift; sourceTree = "<group>"; };
-		20E678E121EA9ED200C2CBF5 /* SecondScreenViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondScreenViewController.storyboard; sourceTree = "<group>"; };
 		20E678FC21EABBF000C2CBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainViewController.storyboard; sourceTree = "<group>"; };
 		6FCC4D0C2990B2AAE4ECED10 /* Pods_viperProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_viperProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C188DEEC4D194AC2D335332B /* Pods-viperProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viperProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-viperProject/Pods-viperProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +115,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		202E96BE21F5D1A10053F514 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				202E96BF21F5D1AB0053F514 /* Cells */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		202E96BF21F5D1AB0053F514 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				20A8E93021F4CCA8001827CC /* SecondScreen */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		20A8E92F21F4CC9A001827CC /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				202E96BA21F5B71A0053F514 /* SecondScreenTableDataSource.swift */,
+				202E96BC21F5CC620053F514 /* SecondScreenTableDelegate.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		20A8E93021F4CCA8001827CC /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				20A8E93321F4CE3D001827CC /* SecondScreenTableViewCell.swift */,
+				202E96C221F5F2750053F514 /* SecondScreenTableViewCell.xib */,
+			);
+			path = SecondScreen;
+			sourceTree = "<group>";
+		};
 		20E6788021E9131700C2CBF5 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +174,7 @@
 		20E6788B21E9131700C2CBF5 /* viperProject */ = {
 			isa = PBXGroup;
 			children = (
+				202E96BE21F5D1A10053F514 /* Components */,
 				20E678C821E93BAE00C2CBF5 /* Extension */,
 				20E678BA21E9177400C2CBF5 /* Modules */,
 				20E6788C21E9131700C2CBF5 /* AppDelegate.swift */,
@@ -195,13 +238,14 @@
 		20E678CF21EA8A3E00C2CBF5 /* SecondScreen */ = {
 			isa = PBXGroup;
 			children = (
+				20A8E92F21F4CC9A001827CC /* Table */,
 				20E678D021EA8A7000C2CBF5 /* SecondScreenViewController.swift */,
 				20E678D221EA8A9000C2CBF5 /* SecondScreenProtocols.swift */,
 				20E678D421EA8A9C00C2CBF5 /* SecondScreenInteractor.swift */,
 				20E678D621EA8AA800C2CBF5 /* SecondScreenRouter.swift */,
 				20E678D821EA8AB500C2CBF5 /* SecondScreenEntities.swift */,
 				20E678DB21EA8AD200C2CBF5 /* SecondScreenPresenter.swift */,
-				20E678E121EA9ED200C2CBF5 /* SecondScreenViewController.storyboard */,
+				20A8E92D21F4CC72001827CC /* SecondScreenViewController.xib */,
 			);
 			path = SecondScreen;
 			sourceTree = "<group>";
@@ -331,7 +375,8 @@
 			files = (
 				20E678FD21EABBF000C2CBF5 /* MainViewController.storyboard in Resources */,
 				20E6789721E9131700C2CBF5 /* LaunchScreen.storyboard in Resources */,
-				20E678E221EA9ED200C2CBF5 /* SecondScreenViewController.storyboard in Resources */,
+				202E96C321F5F2750053F514 /* SecondScreenTableViewCell.xib in Resources */,
+				20A8E92E21F4CC72001827CC /* SecondScreenViewController.xib in Resources */,
 				20E6789421E9131700C2CBF5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,10 +460,13 @@
 				20E678BD21E938F000C2CBF5 /* MainProtocols.swift in Sources */,
 				20E678C121E93A2A00C2CBF5 /* MainInteractor.swift in Sources */,
 				20E678CE21EA790000C2CBF5 /* NavigationBar.swift in Sources */,
+				20A8E93421F4CE3D001827CC /* SecondScreenTableViewCell.swift in Sources */,
+				202E96BB21F5B71A0053F514 /* SecondScreenTableDataSource.swift in Sources */,
 				20E678D121EA8A7000C2CBF5 /* SecondScreenViewController.swift in Sources */,
 				20E678BF21E93A1E00C2CBF5 /* MainPresenter.swift in Sources */,
 				20E678D321EA8A9000C2CBF5 /* SecondScreenProtocols.swift in Sources */,
 				20E678C321E93A4600C2CBF5 /* MainRouter.swift in Sources */,
+				202E96BD21F5CC620053F514 /* SecondScreenTableDelegate.swift in Sources */,
 				20E678D521EA8A9C00C2CBF5 /* SecondScreenInteractor.swift in Sources */,
 				20E678C721E93AB500C2CBF5 /* MainViewController.swift in Sources */,
 			);

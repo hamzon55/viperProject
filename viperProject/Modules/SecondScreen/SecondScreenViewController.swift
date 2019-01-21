@@ -13,8 +13,11 @@ class SecondScreenViewController: UIViewController {
     
     var presenter: SecondScreenViewToPresenterProtocol?
     
+
+    @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        presenter?.updateView()
     }
     
     override func didReceiveMemoryWarning() {

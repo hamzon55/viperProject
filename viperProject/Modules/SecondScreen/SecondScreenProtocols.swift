@@ -10,6 +10,8 @@ import UIKit
 
 
 protocol SecondScreenPresenterToViewProtocol: class{
+    var tableView: UITableView!  { get set }
+
 }
 
 protocol SecondScreenInteractorToPresenterProtocol: class{
@@ -23,6 +25,8 @@ protocol SecondScreenViewToPresenterProtocol: class{
     var view: SecondScreenPresenterToViewProtocol? {get set}
     var interactor: SecondScreenPresenterToInteractorProtocol? {get set}
     var router: SecondScreenPresenterToRouterProtocol? {get set}
+    func updateView()
+
 }
 
 protocol SecondScreenPresenterToRouterProtocol: class{
