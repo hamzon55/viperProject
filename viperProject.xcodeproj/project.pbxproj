@@ -10,6 +10,8 @@
 		202E96BB21F5B71A0053F514 /* SecondScreenTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E96BA21F5B71A0053F514 /* SecondScreenTableDataSource.swift */; };
 		202E96BD21F5CC620053F514 /* SecondScreenTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E96BC21F5CC620053F514 /* SecondScreenTableDelegate.swift */; };
 		202E96C321F5F2750053F514 /* SecondScreenTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 202E96C221F5F2750053F514 /* SecondScreenTableViewCell.xib */; };
+		202E96C721F5FE6C0053F514 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 202E96C621F5FE6C0053F514 /* Localizable.strings */; };
+		202E96C921F5FED10053F514 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E96C821F5FED10053F514 /* Localized.swift */; };
 		20A8E92E21F4CC72001827CC /* SecondScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A8E92D21F4CC72001827CC /* SecondScreenViewController.xib */; };
 		20A8E93421F4CE3D001827CC /* SecondScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A8E93321F4CE3D001827CC /* SecondScreenTableViewCell.swift */; };
 		20E6788D21E9131700C2CBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E6788C21E9131700C2CBF5 /* AppDelegate.swift */; };
@@ -56,6 +58,8 @@
 		202E96BA21F5B71A0053F514 /* SecondScreenTableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenTableDataSource.swift; sourceTree = "<group>"; };
 		202E96BC21F5CC620053F514 /* SecondScreenTableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenTableDelegate.swift; sourceTree = "<group>"; };
 		202E96C221F5F2750053F514 /* SecondScreenTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondScreenTableViewCell.xib; sourceTree = "<group>"; };
+		202E96C621F5FE6C0053F514 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		202E96C821F5FED10053F514 /* Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
 		20A8E92D21F4CC72001827CC /* SecondScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondScreenViewController.xib; sourceTree = "<group>"; };
 		20A8E93321F4CE3D001827CC /* SecondScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenTableViewCell.swift; sourceTree = "<group>"; };
 		20E6788921E9131700C2CBF5 /* viperProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viperProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +135,22 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		202E96C421F5FE100053F514 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				202E96C521F5FE3B0053F514 /* Localization */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		202E96C521F5FE3B0053F514 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				202E96C621F5FE6C0053F514 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
 		20A8E92F21F4CC9A001827CC /* Table */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +194,7 @@
 		20E6788B21E9131700C2CBF5 /* viperProject */ = {
 			isa = PBXGroup;
 			children = (
+				202E96C421F5FE100053F514 /* Resources */,
 				202E96BE21F5D1A10053F514 /* Components */,
 				20E678C821E93BAE00C2CBF5 /* Extension */,
 				20E678BA21E9177400C2CBF5 /* Modules */,
@@ -231,6 +252,7 @@
 			children = (
 				20E678C921E93BD300C2CBF5 /* StoryboardExtension.swift */,
 				20E678CD21EA790000C2CBF5 /* NavigationBar.swift */,
+				202E96C821F5FED10053F514 /* Localized.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -374,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20E678FD21EABBF000C2CBF5 /* MainViewController.storyboard in Resources */,
+				202E96C721F5FE6C0053F514 /* Localizable.strings in Resources */,
 				20E6789721E9131700C2CBF5 /* LaunchScreen.storyboard in Resources */,
 				202E96C321F5F2750053F514 /* SecondScreenTableViewCell.xib in Resources */,
 				20A8E92E21F4CC72001827CC /* SecondScreenViewController.xib in Resources */,
@@ -461,6 +484,7 @@
 				20E678C121E93A2A00C2CBF5 /* MainInteractor.swift in Sources */,
 				20E678CE21EA790000C2CBF5 /* NavigationBar.swift in Sources */,
 				20A8E93421F4CE3D001827CC /* SecondScreenTableViewCell.swift in Sources */,
+				202E96C921F5FED10053F514 /* Localized.swift in Sources */,
 				202E96BB21F5B71A0053F514 /* SecondScreenTableDataSource.swift in Sources */,
 				20E678D121EA8A7000C2CBF5 /* SecondScreenViewController.swift in Sources */,
 				20E678BF21E93A1E00C2CBF5 /* MainPresenter.swift in Sources */,

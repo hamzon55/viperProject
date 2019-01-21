@@ -16,6 +16,8 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.startButton.setTitle("mainbutton_title".localized(), for: .normal)
+
     }
     
     override func didReceiveMemoryWarning() {
